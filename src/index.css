@@ -304,3 +304,12 @@ Grocery List
 .clear-btn:hover {
   color: var(--clr-red-dark);
 }
+
+
+@media (max-width:325px) {
+  .grocery-form{
+      padding: 20px !important;
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+}

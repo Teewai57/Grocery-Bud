@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import List from './List'
 import Alert from './Alert'
+import './App.css'
 
 
 const getLocalStorage = () => {
@@ -74,7 +75,7 @@ function App() {
 
         <h3>grocery bud</h3>
         <div className='form-control'>
-          <input
+          <input 
             type='text'
             className='grocery'
             placeholder='e.g. Milk'
