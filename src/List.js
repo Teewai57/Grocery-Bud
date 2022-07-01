@@ -1,7 +1,6 @@
 import React from 'react'
 import EditIcon from '@mui/icons-material/Edit';
-import { FaEdit, FaTrash } from 'react-icons/fa'
-
+import DeleteIcon from '@mui/icons-material/Delete';
 
 const List = ({ items, removeItem, editItem }) => {
   return (
@@ -25,7 +24,7 @@ const List = ({ items, removeItem, editItem }) => {
                 className='delete-btn'
                 onClick={() => removeItem(id)}
               >
-                <FaTrash />
+                <DeleteIcon />
               </button>
             </div>
           </article>
